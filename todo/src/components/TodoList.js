@@ -1,5 +1,6 @@
 import React, {useState,useReducer} from 'react'
 import { intialObj , reducers} from '../reducers/reducer'
+import './Todo.css'
 
 
 
@@ -31,6 +32,7 @@ const TodoList = () => {
             <div>
             <button onClick={()=>dispatch({type:'TOGGLE_CLEARDONE'})}>Clear Completed</button>
             </div>
+            
          </section>
         </div>
     )
