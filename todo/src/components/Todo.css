@@ -1,0 +1,25 @@
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.todo-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    margin:3%;
+}
+
+button{
+    width: 25%;
+    margin-top: 2%;
+    align-self: center;
+}
+
+.list-container{
+    width: 60%;
+    align-self: center;
+}
